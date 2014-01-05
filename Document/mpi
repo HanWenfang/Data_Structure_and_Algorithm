@@ -1,0 +1,33 @@
+Parallel Algorithm
+	- Separation
+		* Data Separation: matrix multiply
+		* Function Separation: asynchronous brain like master-worker model
+			Let hands write. Let legs walk.
+	- Communication
+		* anytime [granularity]
+		* efficient encoding [exactly]
+		* fast [just like a function call]
+
+	- Reduce [The Master]
+
+	- Mapping
+		* Load Balance [ Task Scheduler[ centralized[master-worker]   distributed[push/pull] ] ]
+		* Maybe We should do it ourselves![Master - Worker Model is the key! ]
+
+MPI
+	- rank number is fixed [not scalable]
+	- Message is the way to synchronize. [Empty message is meaningful.]
+		A convient way is to use MPI_Barrier.
+	- its logic is reversed [like the web], we use reduce as a master model, but each worker must join the 
+	  reduce on their own.
+	- Everyone can be the master in Reduce , however, we must hardcode it in the program first!
+	- MPI tutorial: http://mpitutorial.com/
+
+
+Reference:
+	- MPI_Bcast: http://stackoverflow.com/questions/7864075/using-mpi-bcast-for-mpi-communication
+	  Bcast to exit:http://stackoverflow.com/questions/11303135/broadcast-message-for-all-processes-to-exitmpi
+	- MPI Collective Operation
+		http://www.new-npac.org/projects/cdroms/cewes-1998-05/cps615course/collective.html
+
+
