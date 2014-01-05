@@ -29,5 +29,9 @@ Reference:
 	  Bcast to exit:http://stackoverflow.com/questions/11303135/broadcast-message-for-all-processes-to-exitmpi
 	- MPI Collective Operation
 		http://www.new-npac.org/projects/cdroms/cewes-1998-05/cps615course/collective.html
+	- MPI_Bcast:http://www.new-npac.org/projects/cdroms/cewes-1998-05/cps615course/collective.html
+		root is the originator of the broadcast and must be called by each node in the group with the same comm and root.
+
+
 
 
