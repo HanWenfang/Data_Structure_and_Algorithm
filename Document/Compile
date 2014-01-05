@@ -1,0 +1,13 @@
+1. C Source Code
+	gcc -W 01_Linear_Table.c -o test
+
+
+2. MPI Source Code
+	- mpich install : location[default] : /usr/local/mpich/
+	- PATH=/usr/local/mpich/bin:$PATH ; export PATH
+	- [compile]	/usr/local/mpich/bin/mpicxx -o test circuit.cpp
+	  [run]		/usr/local/mpich/bin/mpiexec -n 2 ./test
+
+
+
+

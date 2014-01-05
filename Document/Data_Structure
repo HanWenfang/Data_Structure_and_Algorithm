@@ -1,0 +1,19 @@
+* MVC:xD
+ 	- Logical Structure
+  	- Physical Structure
+  	- Operation Sematics
+
+* How many Physical Store Model?
+	- Linear: continuous ~ O(1)
+	- Link : not continuous but linked ~ O(n)
+	- Hash : use hash id to retrieve the data ~ O(1)
+	- DataBase ??
+
+* Time Complexity
+	O(1) < O(logn) < O(n) < O(nlogn) < O(n^2) < O(n^3) < O(2^n) < O(n!) < O(n^n)
+
+* The Complete Operation Set of One Data Structure is the key to solve the Problem around IT.  
+
+
+
+
