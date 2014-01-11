@@ -1,4 +1,5 @@
 /*****
+  KMP Algorithm
   Reference: http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html
   gcc -W -std=c99 ./05_KMP.c -o test
   g++ -W ./05_KMP.cpp -o test
@@ -112,14 +113,3 @@ int main(int argc, char *argv[])
 
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
