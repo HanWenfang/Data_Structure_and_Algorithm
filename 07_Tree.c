@@ -23,7 +23,10 @@ parent pattern and children pattern are reversed.
  			 --> right child 2*i+1 (2*i+1 < n)
 *****************************************************/
 
-
+struct Node{
+	char value;
+	struct Node *next;
+};
 
 
 int main(int argc, char *argv[])
