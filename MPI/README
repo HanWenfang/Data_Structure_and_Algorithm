@@ -1,0 +1,38 @@
+1. MPI
+
+P to P:
+comutator1     comutator2
+  rank1		     rank5
+  rank2			 rank6
+  rank3			 rank7
+  rank4			 rank8
+  ...			 ...
+
+send/recv: http://mpitutorial.com/mpi-send-and-receive/
+	point-to-point : 
+
+dynamic data [comunication]:
+
+get_count:
+probe:
+	http://mpitutorial.com/dynamic-receiving-with-mpi-probe-and-mpi-status/
+
+parallelization random walker app:
+	http://mpitutorial.com/dynamic-receiving-with-mpi-probe-and-mpi-status/
+	[domains, walkers,status]
+
+	program pattern!! -- The Essential of Programming [Patterns]
+
+	1. Initialize the walkers.
+	2. Progress the walkers with the walk function.
+	3. Send out any walkers in the outgoing_walkers vector.
+	4. Receive new walkers and put them in the incoming_walkers vector.
+	5. Repeat steps two through four until all walkers have finished.
+
+	To increase the communication, not decerease. To avoid deadlock by communication.
+
+Collective Communication
+
+
+
+

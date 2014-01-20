@@ -21,7 +21,7 @@ int master_io(MPI_Comm master_comm, MPI_Comm comm)
 		{
 			// will block
 			MPI_Recv(buf, 256, MPI_CHAR, i, 0, master_comm, &status); // the same communicator
-			cout << buf << endl;
+			cout << status.MPI_SOURCE << " : "<< buf << endl;
 		}
 	}
 	return 0;
