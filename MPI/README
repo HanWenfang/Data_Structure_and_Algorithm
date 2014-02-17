@@ -32,6 +32,27 @@ parallelization random walker app:
 	To increase the communication, not decerease. To avoid deadlock by communication.
 
 Collective Communication
+	barrier
+
+	"
+		Always remember that every collective call you make is synchronized. In other words, if you can’t 
+	successfully complete an MPI_Barrier, then you also can’t successfully complete any collective call. If you 
+	try to call MPI_Barrier or other collective routines without ensuring all processes in the communicator will 
+	also call it, your program will idle. This can be very confusing for beginners, so be careful!
+																										"
+
+    " A smarter implementation is a tree-based communication algorithm that can use more of the available 
+    network links at once.  "
+
+    wtime
+    broadcast : the same data set
+
+    scatter: seperated data set
+    gather: This routine is highly useful to many parallel algorithms, such as parallel sorting and searching. 
+    allgather
+
+
+
 
 
 

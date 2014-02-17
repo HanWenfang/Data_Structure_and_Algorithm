@@ -1,6 +1,6 @@
 1. C Source Code
 	gcc -W 01_Linear_Table.c -o test
-
+	g++ -W 11_binary_search.cpp -o test
 
 2. MPI Source Code
 	- mpich install : location[default] : /usr/local/mpich/
