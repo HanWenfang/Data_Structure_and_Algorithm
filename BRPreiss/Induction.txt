@@ -1,0 +1,17 @@
+
+A proof method
+
+"How to prove the equation is right!"
+
+	when n=1, the equation is right.
+	when n=m, the equation is right, then we could induct n=m+1 is right too!
+	n is the variable.
+
+
+some var:
+	1. ordinary : n>b or n^2>2n
+	2. n=1,2,3,4,5,6..., the equation is right.
+	3. n=m+2....
+	4. recursive: T(n) = T(n-1)+t , from big to small
+
+
