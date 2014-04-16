@@ -1,0 +1,12 @@
+
+Tsmallest
+
+Tbiggest
+
+Taverage ==> 1/n =>ln(n):probability
+
+
+
+
+
+
