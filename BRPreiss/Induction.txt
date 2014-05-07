@@ -15,3 +15,5 @@ some var:
 	4. recursive: T(n) = T(n-1)+t , from big to small
 
 
+Some problems about tree are easy to solve with Induction!
+

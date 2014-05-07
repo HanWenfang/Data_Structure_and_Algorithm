@@ -78,6 +78,8 @@ int AVL::balanceFactor()
 
 /*
 	Four Way To Route
+
+	reblance is a very complex operation!!
 */
 /*
 	1. exchange left to right
